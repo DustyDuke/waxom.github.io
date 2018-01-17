@@ -1162,6 +1162,12 @@ header .container {
 	left: -35px;
 	top: -15px;
 }
+	.search::before {
+	background-position: -501px -6px;
+}
+.search:hover::before {
+	background-position: -600px -558px;
+}
 header h1 {
 	font-size: 14px;
 }
