@@ -99,7 +99,8 @@ header {
 	height: 40px;
 	min-width: 30px;
 }
-.nav .open >  a:focus {
+.nav .open > a,
+.nav .open > a:focus {
 	background-color: transparent;
 }
 .cart {
