@@ -17,8 +17,7 @@ function clickControl(control) {
     });
 }
 
-var defaultFilter = document.querySelector('.buttons button');
-toggleFilter(defaultFilter);
+
 
 
 $('.owl-carousel').owlCarousel({
