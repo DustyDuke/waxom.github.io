@@ -201,17 +201,17 @@ header .modal-body .btn,
 .modal-header button {
 	outline: none;
 }
-header h1,
+header h2,
 .video h1,
 .mobile h1 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	margin-bottom: 30px;
 }
-header h1 {
+header h2 {
 	margin-bottom: 0;
 }
-header h2,
+header h1,
 .theme .modal-header h2 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
@@ -973,10 +973,10 @@ top: 100px;
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
-	header h1 {
+	header h2 {
 		font-size: 18px;
 	}
-	header h2 {
+	header h1 {
 		font-size: 24px;
 	}
 	.btn {
@@ -1162,10 +1162,10 @@ header .container {
 	left: -35px;
 	top: -15px;
 }
-header h1 {
+header h2 {
 	font-size: 14px;
 }
-header h2
+header h1
 {
 	font-size: 20px;
 }
@@ -1318,10 +1318,10 @@ iframe {
 	header h5 {
 		display: none;
 	}
-	header h1 {
+	header h2 {
 		font-size: 14px;
 	}
-	header h2 {
+	header h1 {
 		font-size: 18px;
 	}
 	header .btn {
