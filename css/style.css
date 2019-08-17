@@ -147,6 +147,7 @@ input[type="text"]:focus {
 	box-shadow: 0px 3px 0 0 #726257;
 	color: #fff;
 }
+
 .btn:focus {
 		outline: none;
 }
@@ -174,9 +175,11 @@ header .modal-body .btn,
 	height: 30px;
 	width: auto;
 }
+
 .theme .modal-body .btn {
 	float: none;
 }
+
 .feedback-form {
 	max-width: 450px;
 	max-height: 600px;
@@ -375,8 +378,14 @@ h3 {
 	text-align: left;
 	margin: 15px 0 50px 0;
 }
+.theme {
+	position: relative;
+}
 .theme .btn {
-	float: right;
+	position: absolute;
+	right: 80px;
+	top: calc(50% - 25px);
+	padding: 15px;
 	display: inline;
 	font-size: 14px;
 }
@@ -980,7 +989,7 @@ top: 100px;
 		font-size: 24px;
 	}
 	.btn {
-		 width: 110px;
+		 width: 125px;
 		height: 35px;
 		font-weight: 600;
 	 }
@@ -990,6 +999,11 @@ top: 100px;
 	header .btn {
 		margin: 25px auto 60px auto;
 	}
+	.theme .btn {
+	padding: 8px;
+	right: 20px;
+	top: calc(50% - 12px);
+}
 	.navbar-brand {
 		font-size: 24px;
 		left: 50px;
@@ -1208,14 +1222,12 @@ h2 {
 p, .theme p, .exumples p {
     font-size: 14px;
 }
-.theme .btn {
-	height: 30px;
-	float: none;
-	margin-top: 15px;
-	margin-left: 20px;
+.theme p {
+	margin-bottom: 70px;
 }
-.btn1 {
-	margin-top: 10px;
+.theme .btn {
+	left: 20px;
+	top: 110px;
 }
 .exumples img {
 	max-width: 374px;
@@ -1308,6 +1320,7 @@ iframe {
 .info .icons {
 	margin: 30px auto;
 }
+
 }
 /* XSmall Devices, Tablets */
 @media only screen and (max-width : 480px) {
@@ -1335,6 +1348,12 @@ iframe {
 	}
 		.orders .col-sm-6 {
 	max-height: 300px;
+}
+.theme p {
+	margin-bottom: 120px;
+}
+.theme .btn {
+	top: 160px;
 }
 .exumples {
 	max-width: 374px;
