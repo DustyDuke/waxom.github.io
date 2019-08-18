@@ -1343,6 +1343,15 @@ iframe {
 .info .icons {
 	margin: 30px auto;
 }
+.buttons .btn1 {
+	width: 50%;
+	margin: 5px auto;
+	display: block;
+	font-size: 14px;
+}
+.buttons a {
+	padding: 6px;
+}
 }
 /* XSmall Devices, Tablets */
 @media only screen and (max-width : 480px) {
@@ -1446,4 +1455,8 @@ iframe {
 .waxom, .envato {
 padding: 0;	
 }
+.buttons .btn1 {
+	width: 80%;
 }
+}
+
