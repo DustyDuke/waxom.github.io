@@ -1,3 +1,28 @@
+
+  
+var controls = document.querySelectorAll('.buttons a');
+
+for (var i = 0; i < controls.length; i++) {
+    clickControl(controls[i]);
+}
+
+function toggleFilter(control) {
+    for (var i = 0; i < controls.length; i++) {
+        controls[i].classList.remove('active');       
+    }
+    control.classList.add('active');
+}
+
+function clickControl(control) {
+    control.addEventListener('click', function() {
+        toggleFilter(control);
+    });
+}
+
+var defaultFilter = document.querySelector('.buttons a');
+toggleFilter(defaultFilter);
+
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -23,28 +48,7 @@ $('.owl-carousel').owlCarousel({
 })
 
 $('.carousel').carousel();
-  
-var controls = document.querySelectorAll('.buttons a');
 
-for (var i = 0; i < controls.length; i++) {
-    clickControl(controls[i]);
-}
-
-function toggleFilter(control) {
-    for (var i = 0; i < controls.length; i++) {
-        controls[i].classList.remove('active');       
-    }
-    control.classList.add('active');
-}
-
-function clickControl(control) {
-    control.addEventListener('click', function() {
-        toggleFilter(control);
-    });
-}
-
-var defaultFilter = document.querySelector('.buttons a');
-toggleFilter(defaultFilter);
 
 
 $(".show").click(function(){
