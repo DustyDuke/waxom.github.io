@@ -1159,6 +1159,9 @@ top: 100px;
 	background: #726257;
 	width: 100%;
 }
+.cart::before {
+	left: -15px;
+}
 header .container {
 	background: #726257;
 }
