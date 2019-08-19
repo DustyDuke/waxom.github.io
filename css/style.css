@@ -138,10 +138,7 @@ input[type="text"]:focus {
 	box-shadow: 0px 3px 0 0 #726257;
 	color: #fff;
 }
-.btn > a {
-	text-decoration: none;
-	color: #fff;
-}
+
 .btn:focus {
 		outline: none;
 }
@@ -403,15 +400,13 @@ background: -o-linear-gradient(to right, #221c1a, #4d3327);
 	margin-right: 10px;
 	display: inline;
 }
-.btn1 > a {
-	color: #000;
-}
+
 .theme .feedback-form .btn  {
 	right: 0;
 	top: 0;
 	position: relative;
 }
-.buttons .active a {
+.buttons .active {
 	color: #fff;
 }
 .buttons .active {
