@@ -1,6 +1,5 @@
-
   
-var controls = document.querySelectorAll('.buttons a');
+var controls = document.querySelectorAll('.buttons button');
 
 for (var i = 0; i < controls.length; i++) {
     clickControl(controls[i]);
@@ -19,9 +18,8 @@ function clickControl(control) {
     });
 }
 
-var defaultFilter = document.querySelector('.buttons a');
+var defaultFilter = document.querySelector('.buttons button');
 toggleFilter(defaultFilter);
-
 
 $('.owl-carousel').owlCarousel({
     loop:true,
@@ -47,8 +45,7 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-$('.carousel').carousel();
-
+$('.carousel').carousel()
 
 
 $(".show").click(function(){
